@@ -1,0 +1,122 @@
+package cursojava;
+
+public class fundamentos {
+ 
+public static void main(String[] args) {
+		String nome;
+		int idade = 20 ;
+		char sexo = 'M';
+		double temperatura = 30.8;
+		boolean arCondicionado = false;
+		nome = "André Andrade";
+		System.out.println("Uso de varíaveis na linguagem Java");
+		System.out.println("Exemplos:");
+		System.out.println("Nome: " + nome);
+        System.out.println("ïdade:" + idade);
+        System.out.println("sexo:" + sexo);
+        System.out.println("temperatura:" + temperatura);
+        System.out.println("arCondicionado:" + arCondicionado);
+        System.out.println("________________________________");
+        System.out.println("");
+        double i = 10;
+        System.out.println("Operadores Aritiméticos e Atribuições");
+        System.out.println("Exemplos");
+        System.out.println("i = " + i);
+        System.out.println("i = " + i + " + 5 | i = " + (i + 5) );
+        System.out.println("i = " + i + " - 5 | i = " + (i - 5) );
+        System.out.println("i = " + i + " * 5 | i = " + (i * 5) );
+        System.out.println("i = " + i + " / 5 | i = " + (i / 5) );
+        System.out.println("i = " + i + " % 5 | i = " + (i % 5) );
+        System.out.println("i += 5      | i = " + (i += 5));
+        System.out.println("i -= 5      | i = " + (i -= 5));
+        System.out.println("i *= 5      | i = " + (i *= 5));
+        System.out.println("i /= 5      | i = " + (i /= 5));
+        i++;
+        System.out.println("i++         | = " + i);
+        i--;
+        System.out.println("i--         | = " + i);
+        System.out.println("_____________________________________");
+        System.out.println("");
+        System.out.println("ESTRUTURAS DE CONTROLE");
+        System.out.println("");
+        System.out.println("Estruturas de Controle Condicional");
+        System.out.println("");
+        System.out.println("Exemplo 1 - uso do 'if'");
+        if (sexo == 'M')  {
+        System.out.println("Alistamento Militar Obrigatório");
+        System.out.println("Pode Engerir alcool" );
+        System.out.println("André é um homem Fiel");
+        System.out.println("Exemplo 2 - uso do 'if - else'");
+        if (idade < 18) {
+        System.out.println("Menor de Idade");}
+        else {
+        System.out.println("Maior de idade"); }
+        System.out.println("");
+		System.out.println("Exemplo 3 - 'uso do else if' ");
+        idade = 55;
+		if (idade < 16 ) { 
+        	System.out.println("PROIBIDO VOTAR ");		
+        } else if  (idade >= 18 && idade <= 70) {
+        	System.out.println("VOTO OBRIGATÓRIO");
+        } else if (idade == 16    || idade == 17  || idade > 70) {
+        	System.out.println("VOTO FACULTATIVO"); 
+        }
+      }
+   }
+}
+
+       
+        
+    
+    
+
+        	  
+        		
+        
+   
+	
+	
+        
+        		
+        		
+        	                  
+        			
+        			
+        		
+        		
+     
+        			
+        			
+      
+        			
+        			
+        		
+        		
+        			
+        			
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+  
+    		
+        
+        
+        	
+        
+         
+
+   
+	  
+
+          
+       	
+        	
+        
+    
+       
